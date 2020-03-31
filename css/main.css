@@ -38,7 +38,7 @@ h6 {
   display: table;
   margin: 0;
   max-width: none;
-  background-color: #373B44;
+  background-color: rgb(161, 162, 163);
 }
 
 .flex-middle {
@@ -85,19 +85,19 @@ h6 {
 }
 
 .color-red {
-  color: red !important;
+  color: rgb(236, 120, 120) !important;
 }
 
 .color-red-2 {
-  color: #f44336 !important;
+  color: #ec827a !important;
 }
 
 .color-red-3 {
-  color: #e53935 !important;
+  color: #ec827a !important;
 }
 
 .color-blue-2 {
-  color: #0099CC !important;
+  color: rgb(132, 205, 230) !important;
 }
 
 .color-text {
@@ -113,11 +113,11 @@ h6 {
 }
 
 .bg-1 {
-  background-color: #263238;
+  background-color: #ffffff;
 }
 
 .bg-2 {
-  background-color: #1C2331;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -129,7 +129,7 @@ h6 {
 	left: 0;
 	background: rgba(34,33,33,1);
 	opacity: 0.8;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 50%, rgba(22, 22, 22, 0.8) 75%, #161616 100%);
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 75%, #ffffff 100%);
 
 }
 
@@ -140,13 +140,25 @@ h6 {
 }
 
 .fullscreen-video-wrap{
+  /*position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  background-color: rgb(178, 227, 240);
+  filter: blur(8px);*/
+}
+
+img.animated-gif{
   position:absolute;
   top:0;
   left:0;
   width:100%;
   height:100vh;
   overflow:hidden;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(178, 227, 240);
+  filter: blur(8px);
 }
 
 .fullscreen-video-wrap video{
