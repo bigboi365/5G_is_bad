@@ -159,6 +159,7 @@ img.animated-gif{
   overflow:hidden;
   background-color: rgb(178, 227, 240);
   filter: blur(8px);
+  pointer-events: none
 }
 
 .fullscreen-video-wrap video{
