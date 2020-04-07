@@ -480,6 +480,13 @@ hr {
   -ms-user-select: none;
  }
 
+ .title_enjeux {
+   margin-left: 3%;
+   font-weight: bold;
+   font-size: 1.5em;
+   margin-bottom: 2%;
+ }
+
 
 /*Debug*/
 /**{
